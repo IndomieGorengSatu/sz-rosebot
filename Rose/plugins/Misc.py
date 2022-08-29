@@ -3,9 +3,8 @@ from pyrogram import filters
 from Rose import app,eor,arq
 from gpytranslate import Translator
 from pyrogram.errors import PeerIdInvalid
-from pyrogram.types import Message, User
 from datetime import datetime
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, User
 from aiohttp import ClientSession
 import os
 import re
